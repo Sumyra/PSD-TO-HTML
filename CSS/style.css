@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.align-center{
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+}
+ul{
+list-style-type: none;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+nav{
+    background-color:#ffece1 ;
+    box-shadow: 0px 9px 18px rgba(0, 0, 0, 0.13);
+}
+nav .logo{
+    width: 20%;
+}
+nav .menu{
+    width:50% ;
+}
+nav .menu ul{
+    text-align: center;
+}
+nav .menu ul li{
+    display: inline-block;
+}
+nav .menu ul li a{
+    font-size:18.75px ;
+    font-weight: 400;
+    color: #649483;
+    padding:50px 21px ;
+    display: block;
+}
+nav .placeorder{
+    width:30% ;
+}
+nav .placeorder ul{
+    text-align: right;
+}
+nav .placeorder ul li{
+    display: inline-block;
+    margin: 0 5px;
+}
+nav .placeorder ul li a{
+    font-size:18.75px ;
+    font-weight: 700;
+    color: white;
+    background-color:#649483 ;
+    padding: 9px 18px ;
+    display: block;
+    border-radius: 15px;
+}
+nav .placeorder ul li span{
+    font-size:18.75px ;
+    color: #649483;
+}
+#banner{
+    background-image:url(../IMAGE/bgm.jpg) ;
+
+}
+#banner .bannercnt h1{
+    color: #dd7017;
+    font-size: 90px;
+    font-weight: 700;
+}
+#banner .bannerbgm{
+   width:52% ;
+
+}
+#banner .bannercnt{
+    width: 48%;
+}
+.a2{
+    font-size:18.75px ;
+    font-weight: 700;
+    color: white;
+    background-color:#649483 ;
+    padding: 9px 18px ;
+    border-radius: 15px;
+}
+.a3{
+    font-size:18.75px ;
+    font-weight: 700;
+    color: #649483;
+    background-color:white ;
+    padding: 9px 18px ;
+    border-radius: 15px; 
+    border-color:#649483 ;
+    border-style:double;
+}
